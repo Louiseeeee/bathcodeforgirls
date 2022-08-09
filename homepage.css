@@ -5,12 +5,15 @@
  */
 
  /*Navbar decoration*/
-.nav {
-    background-color:rgba(29, 31, 20, 0.7);
+ .nav {
+    background-color:rgba(254, 240, 186, 0.7);
     list-style-type: none;
     text-align: left;
     margin: 0;
     padding: 0;
+    margin-bottom:50px;
+    border-bottom: ridge;
+    border-color: #FEF0BA;
 
 }
 li {
@@ -28,7 +31,7 @@ ul {
     margin-top: 9px;
     margin-left: 10px;
     border-radius: 20%;
-    filter: drop-shadow(3px 3px 3px rgb(129, 126, 105))
+    filter: drop-shadow(3px 3px 3px rgb(32, 31, 24));
 }
 .nav a {
     text-decoration: none;
@@ -40,7 +43,7 @@ ul {
 }
 /*gradient nav*/
 nav a:hover{
-    background: -webkit-linear-gradient(50deg, #af9e64 0%, #daca70 17%, #5a6d4a 33%, #5c611b 67%, #bdb547 83%, #4e4a0c 100%);
+    background: -webkit-linear-gradient(50deg, #af9e64 0%, #d3c990 17%, #989983 33%, #636451 67%, #FEF0BA 83%, #b6b27b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
